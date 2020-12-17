@@ -12,51 +12,51 @@ const verificarTriki = (marca, jugador) => {
         trikiEstado = true
         seleccionarTriki(1, 2, 3)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     if ((tablero[0] == marca && tablero[3] == marca && tablero[6] == marca)) {
         trikiEstado = true
         seleccionarTriki(1, 4, 7)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     if ((tablero[0] == marca && tablero[4] == marca && tablero[8] == marca)) {
         trikiEstado = true
         seleccionarTriki(1, 5, 9)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     if (tablero[1] == marca  && tablero[4] == marca  && tablero[7] == marca){
         trikiEstado = true
         seleccionarTriki(2, 5, 8)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     if ((tablero[2] == marca  && tablero[5] == marca  && tablero[8] == marca )) {
         trikiEstado = true
         seleccionarTriki(3, 6, 9)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     if ((tablero[2] == marca  && tablero[4] == marca  && tablero[6] == marca)) {
         trikiEstado = true
         seleccionarTriki(3, 5, 7)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     }
     
     if (tablero[3] == marca  && tablero[4] == marca  && tablero[5] == marca) {
         trikiEstado = true
         seleccionarTriki(4, 5, 6)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
 
     }
     if (tablero[6] == marca  && tablero[7] == marca  && tablero[8] == marca){
         trikiEstado = true
         seleccionarTriki(7, 8, 9)
         sonidoGanador()
-        mensaje.innerHTML = jugador + " ha ganado"
+        mensaje.innerHTML = "🏆" + jugador + " ha ganado" + "🏆"
     
     }
     

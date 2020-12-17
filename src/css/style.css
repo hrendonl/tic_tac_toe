@@ -1,0 +1,160 @@
+@font-face{
+    font-family: "Animado";
+    src: url("../fonts/SuperMario256.ttf");
+}
+
+body {
+  background-image:url("../img/espacio.jpeg");
+  background-color:  rgba(24, 24, 24, 0.466);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+header {
+    background-color: rgba(24, 24, 24, 0.658);
+    text-align: center;
+    font-family: Animado;
+}
+header h1 {
+    margin: 0;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px #0277c5 ;
+    font-size: 40px;
+}
+
+main {
+    height: 100%;
+    /* background-color: rgba(24, 24, 24, 0.466); */
+
+}
+
+.content-form {
+    margin-top: 50px;
+
+
+}
+
+.content-input-text {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-text {
+    background: transparent;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    font-size: medium;
+    border: 2px solid rgba(160, 160, 160, 0.664);
+    border-radius: 8px;
+    color: white;
+}
+
+.content-form-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-button {
+    width: 420px;
+    height: 50px;
+    background:#6d02c541;
+    border: 2px solid rgba(160, 160, 160, 0.664);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: rgb(187, 185, 185);
+  }
+
+.triki {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.triki button {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgba(160, 160, 160, 0.664);
+    font-size: x-large;
+    color:transparent;
+    background: transparent;
+    
+}
+
+.triki button:disabled,
+.triki button[disabled]{
+  background-color: rgba(24, 24, 24, 0.658);
+  font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.content-triki {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-mensaje {
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#mensaje {
+    width: 250px;
+    padding: 25px;
+    border-radius: 8px;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(24, 24, 24, 0.658);
+    text-shadow: 4px 4px 4px #0277c5 ;
+}
+
+.show {
+    display: inline;
+}
+
+.ocult {
+    display: none;
+}
+
+.blue {
+  color: rgb(132, 0, 255) !important;
+}
+
+.red {
+    color:rgb(255, 123, 0) !important;
+
+}
+
+.triki-show {
+    border:  3px solid  rgb(0, 196, 186) !important;
+}

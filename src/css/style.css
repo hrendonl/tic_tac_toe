@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image:url("../img/espacio.jpeg");
+  background-image:url("../img/space.jpg.webp");
   background-color:  rgba(24, 24, 24, 0.658);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -17,10 +17,11 @@ body {
 header {
     text-align: center;
     font-family: Animado;
+    background-color: rgba(24, 24, 24, 0.658);
 }
 header h1 {
     margin: 0;
-    padding: 50px;
+    padding: 20px;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 4px #0277c5 ;
     font-size: 40px;
@@ -33,7 +34,7 @@ main {
 }
 
 .content-form {
-    margin-top: 100px;
+    margin-top: 200px;
 
 
 }
@@ -64,7 +65,7 @@ main {
 }
 
 .content-form-button {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -73,7 +74,7 @@ main {
 .form-button {
     width: 420px;
     height: 50px;
-    background:#6d02c541;
+    background: #03a9f42e;
     border: 2px solid rgba(160, 160, 160, 0.664);
     color: white;
     font-size: medium;
@@ -97,7 +98,7 @@ input::placeholder {
     border: 2px solid rgba(160, 160, 160, 0.664);
     font-size: x-large;
     color:transparent;
-    background: transparent;
+    background-color: rgba(24, 24, 24, 0.658);
     
 }
 
@@ -112,7 +113,7 @@ input::placeholder {
 }
 
 .content-triki {
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -127,15 +128,16 @@ input::placeholder {
 }
 
 #mensaje {
+    margin-top: 20px;
     width: 250px;
     padding: 25px;
     border-radius: 8px;
     font-size: medium;
     text-align: center;
     font-weight: bold;
-    background-color: rgba(28, 182, 221, 0.438);
+    background-color: rgb(29 29 29 / 44%);
     border: 2px solid rgba(160, 160, 160, 0.664);
-    text-shadow: 4px 4px 4px #0277c5 ;
+    text-shadow: 4px 4px 4px #353535 ;
 }
 
 .show {

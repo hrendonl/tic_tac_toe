@@ -23,7 +23,7 @@ header h1 {
     margin: 0;
     padding: 20px;
     color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 4px #0277c5 ;
+    text-shadow: -1px 6px 4px #000000;
     font-size: 40px;
 }
 
@@ -34,48 +34,44 @@ main {
 }
 
 .content-form {
-    margin-top: 200px;
+    margin-top: 150px;
 
 
-}
-
-.content-input-text {
-    display: flex;
-    column-gap: 10px;
-    justify-content: center;
-    align-content: center;
 }
 
 .form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
+.content-elements-form {
+    background-color: rgba(24, 24, 24, 0.658);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.content-input-text {
+    width: 100%;
+}
+
 .form-text {
-    background: transparent;
-    width: 200px;
+    margin-bottom: 25px;
+    background: #4c4c4ca1;
+    width: 98%;
     text-align: center;
     height: 50px;
-    font-size: medium;
-    border: 2px solid rgba(160, 160, 160, 0.664);
+    font-size: larger;
+    border: 2px solid rgb(109 109 109 / 66%);
     border-radius: 8px;
     color: white;
 }
 
-.content-form-button {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .form-button {
-    width: 420px;
-    height: 50px;
-    background: #03a9f42e;
-    border: 2px solid rgba(160, 160, 160, 0.664);
+    width: 100%;
+    height: 60px;
+    background: #03a9f48a;
+    border: 2px solid #191919a9;
     color: white;
     font-size: medium;
     font-weight: bold;
@@ -137,7 +133,7 @@ input::placeholder {
     font-weight: bold;
     background-color: rgb(29 29 29 / 44%);
     border: 2px solid rgba(160, 160, 160, 0.664);
-    text-shadow: 4px 4px 4px #353535 ;
+    text-shadow: -1px 6px 4px #000000;
 }
 
 .show {
@@ -149,10 +145,13 @@ input::placeholder {
 }
 
 .blue {
+    text-shadow: -1px 6px 4px #000000;
+
   color: rgb(132, 0, 255) !important;
 }
 
 .red {
+    text-shadow: -1px 6px 4px #000000;
     color:rgb(255, 123, 0) !important;
 
 }
@@ -160,3 +159,32 @@ input::placeholder {
 .triki-show {
     border:  3px solid  rgb(0, 196, 186) !important;
 }
+
+@media only screen and (min-width: 320px) {
+    .content-elements-form {
+        background-color: rgba(24, 24, 24, 0.658);
+        border-radius: 8px;
+        padding: 30px;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .content-elements-form {
+        background-color: rgba(24, 24, 24, 0.658);
+        border-radius: 8px;
+        padding: 30px;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content-elements-form {
+        background-color: rgba(24, 24, 24, 0.658);
+        border-radius: 8px;
+        padding: 30px;
+        width: 30%;
+    }
+}
+
+
